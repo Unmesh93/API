@@ -11,12 +11,12 @@ resource "snowflake_table" "BRANDS" {
 }
   column {
     name = "NAME" 
-    type = "VARCHAR(16777216)"
+    type = "VARCHAR(16707216)"
     nullable = true 
 }
   column {
     name = "GENDER" 
-    type = "VARCHAR(16777216)"
+    type = "VARCHAR(16707216)"
     nullable = true 
 }
   column {
@@ -26,12 +26,12 @@ resource "snowflake_table" "BRANDS" {
 }
   column {
     name = "DATE " 
-    type = "VARCHAR(16777216)"
+    type = "VARCHAR(16707216)"
     nullable = true 
 }
   column {
     name = "COUNTRY" 
-    type = "VARCHAR(16777216)"
+    type = "VARCHAR(16707216)"
     nullable = true 
 }
 
